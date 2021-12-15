@@ -82,6 +82,7 @@ function draw() {
 
 function force()
 {
-	Matter.Body.applyForce(ball,{x:0,y:0},{x:5,y:-7})
+	Matter.Body.applyForce(ball,ball.position,{x:85,y:-85});
+
 }
 
